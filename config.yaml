@@ -1,0 +1,27 @@
+name: "ViniPlay"
+description: "ViniPlay home assistant application"
+version: "0.100.0"
+slug: "ViniPlay"
+startup: application
+boot: auto
+init: false
+panel_icon: "mdi:television-classic"
+panel_title: ViniPlay
+url: "https://github.com/lkadar2015/ViniPlay_lkadar2015"
+image: ghcr.io/lkadar2015/ViniPlay_lkadar2015
+# webui: "http://[HOST]:[PORT:3000]/"
+# watchdog: "http://[HOST]:[PORT:3000]/"
+ingress: true
+ingress_port: 8998
+ingress_stream: true
+# ingress_entry: /
+panel_admin: false
+full_access: true
+video: true
+privileged:
+  - PERFMON
+arch:
+  - amd64
+ports:
+  8998/tcp: 8998
+  8998/udp: 8998
