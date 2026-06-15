@@ -54,7 +54,7 @@ jobs:
         with:
           images: |
             ghcr.io/${{ github.repository }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/viniplay
+#             ${{ secrets.DOCKERHUB_USERNAME }}/viniplay
           tags: |
             # Tag with branch name on push or manual run.
             # e.g., a manual run on 'dev' branch will create a 'dev' tag.
