@@ -1,6 +1,6 @@
 name: "ViniPlay"
 description: "ViniPlay home assistant application"
-version: "0.101.0"
+version: "0.102.0"
 slug: "ViniPlay"
 startup: application
 boot: auto
